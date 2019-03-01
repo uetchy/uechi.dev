@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "alias": ["uechi.dev"],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "status": 301,
+      "headers": { "Location": "https://uechi.io/$1" }
+    }
+  ]
+}
