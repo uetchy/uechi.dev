@@ -3,9 +3,19 @@
   "alias": ["uechi.dev"],
   "routes": [
     {
+      "src": "/twitter",
+      "status": 301,
+      "headers": { "Location": "https://twitter.com/uetschy" }
+    },
+    {
+      "src": "/facebook",
+      "status": 301,
+      "headers": { "Location": "https://www.facebook.com/uetchy" }
+    },
+    {
       "src": "/(.*)",
       "status": 301,
-      "headers": { "Location": "https://uechi.io/$1" }
+      "headers": { "Location": "https://github.com/uetchy" }
     }
   ]
 }
