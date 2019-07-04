@@ -31,10 +31,10 @@ function htmlFormat(bio) {
   <a href="${bio.website}">Web</a>
 </p>
 <p>
-  <a href="${bio.social.github}">GitHub</a>
+  <a href="https://github.com/${bio.social.github}">GitHub</a>
 </p>
 <p>
-  <a href="${bio.social.twitter}">Twitter</a>
+  <a href="https://twitter.com/${bio.social.twitter}">Twitter</a>
 </p>
 </body>
 </html>
