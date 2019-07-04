@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Uechi;Yasuaki;;;
+FN: Yasuaki  Uechi
+X-PHONETIC-FIRST-NAME:Yasuaki
+X-PHONETIC-LAST-NAME:Uechi
+EMAIL;type=INTERNET;type=WORK;type=pref:y@uechi.io
+URL:https://uechi.io
+X-SOCIALPROFILE;type=twitter:https://twitter.com/uetschy
+X-SOCIALPROFILE;type=GitHub;x-displayname=uetchy:https://github.com/uetchy
+X-SOCIALPROFILE;type=Telegram;x-displayname=uetchy:https://t.me/uetchy
+END:VCARD

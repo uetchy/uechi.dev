@@ -1,21 +1,16 @@
 {
   "version": 2,
   "alias": ["uechi.dev"],
+  "builds": [
+    {
+      "src": "index.js",
+      "use": "@now/node"
+    }
+  ],
   "routes": [
     {
-      "src": "/twitter",
-      "status": 301,
-      "headers": { "Location": "https://twitter.com/uetschy" }
-    },
-    {
-      "src": "/facebook",
-      "status": 301,
-      "headers": { "Location": "https://www.facebook.com/uetchy" }
-    },
-    {
-      "src": "/(.*)",
-      "status": 301,
-      "headers": { "Location": "https://github.com/uetchy" }
+      "src": "/.*",
+      "dest": "index.js"
     }
   ]
 }
